@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./lib",
+		"lib": ["ES2015", "DOM"],
+		"target": "es5",
+		"module": "UMD",
+		"moduleResolution": "node",
+		"declaration": true,
+		"strict": true
+	},
+	"exclude": ["node_modules", "lib", "esm", "example"]
+}

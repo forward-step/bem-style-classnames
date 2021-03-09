@@ -1,0 +1,26 @@
+{
+	"name": "bem-style-classnames",
+	"version": "2.0.0",
+	"description": "better to use ClassName with bem style",
+	"main": "lib/index.js",
+	"license": "MIT",
+	"author": "supyp",
+	"keywords": [
+		"bem",
+		"classnames",
+		"bem-style"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/13680422246/bem-style-classnames"
+	},
+	"scripts": {
+		"dev": "tsc --watch",
+		"build:cjs": "tsc",
+		"build:es": "tsc -m esNext --outDir esm",
+		"build": "npm run build:cjs && npm run build:es"
+	},
+	"dependencies": {
+		"typescript": "^4.2.3"
+	}
+}
