@@ -1,6 +1,6 @@
 {
 	"name": "bem-style-classnames",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "better to use ClassName with bem style",
 	"main": "lib/index.js",
 	"license": "MIT",
@@ -20,7 +20,8 @@
 		"build:es": "tsc -m esNext --outDir esm",
 		"build": "npm run build:cjs && npm run build:es"
 	},
-	"dependencies": {
+	"dependencies": {},
+	"devDependencies": {
 		"typescript": "^4.2.3"
 	}
 }
